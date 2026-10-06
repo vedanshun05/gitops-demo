@@ -11,6 +11,8 @@ spec:
     repoURL: https://github.com/vedanshun05/gitops-demo.git
     targetRevision: main
     path: app
+    directory:
+      exclude: argocd-application.yaml
 
   destination:
     server: https://kubernetes.default.svc
